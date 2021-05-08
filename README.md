@@ -38,3 +38,6 @@ def main():
     # Check if 4 and 6 belong to same set
     # Prints True because they belong to same set
 ```
+
+### Time Complexity
+* ```init(size)```: $O(N)$
