@@ -47,9 +47,7 @@ def main():
     log*(N) signifies the number of times you apply log on N till the result becomes 1. log*(N) doesn't exceed 5 in real-life scenarios. In fact, log*(N) for 2<sup>65536</sup> is 5.
 
 ### Space Complexity
-* ```init(N: int) -> Instance: DSU```: O(N)
-* ```find(a: int) -> int```: O(log*(N))
-* ```union(a: int, b: int) -> None```: O(log*(N))
+* O(N)
 
 ### Applications
 * Useful for detecting Cycle in a Graph.
