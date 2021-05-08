@@ -42,8 +42,8 @@ def main():
 ### Time Complexity
 * ```init(N: int) -> Instance: DSU```: O(N)
 * ```find(a: int) -> int```: O(log*(N)).
-* ```union(a: int, b: int) -> None```: O(log*(N))
-    Note that it is not O(log(N)). log*(N) is due to the extremely slow-growing [inverse Ackermann function](https://en.wikipedia.org/wiki/Inverse_Ackermann_function) as a resul of Path - Compression.
+* ```union(a: int, b: int) -> None```: O(log*(N)).<p>
+    Note that it is not O(log(N)). log*(N) is due to the extremely slow-growing [inverse Ackermann function](https://en.wikipedia.org/wiki/Inverse_Ackermann_function) as a resul of Path - Compression.<p>
     log*(N) signifies the number of times you apply log on N till the result becomes 1. log*(N) doesn't exceed 5 in real-life scenarios. In fact, log*(N) for 2<sup>65536</sup> is 5.
 
 ### Space Complexity
