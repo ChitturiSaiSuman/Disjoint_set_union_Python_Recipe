@@ -48,7 +48,7 @@ def main():
 
 ### Space Complexity
 * ```init(N: int) -> Instance: DSU```: O(N)
-* ```find(a: int) -> int```: O(log*(N))
+* `find(a: int) -> int`: O(log*(N))
 * ```union(a: int, b: int) -> None```: O(log*(N))
 
 ### Applications
