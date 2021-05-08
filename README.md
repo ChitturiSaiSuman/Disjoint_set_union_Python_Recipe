@@ -13,7 +13,7 @@ None
 ### Examples
 ```
 def main():
-    # Examples to demonstrate DSU
+    # Example to demonstrate DSU
 
     dsu = DSU(10)
     # Instantiate an object of DSU
